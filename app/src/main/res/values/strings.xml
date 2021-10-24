@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PUCITAggregateCalculator</string>
+    <string name="Title">PUCIT Aggregate Calculator</string>
 </resources>
