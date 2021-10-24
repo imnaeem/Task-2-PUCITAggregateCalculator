@@ -72,7 +72,8 @@
         android:onClick="onCheckboxClicked"
         android:text="Hafiz-e-Quran?"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/intermediatemarks" />
+        app:layout_constraintTop_toBottomOf="@+id/intermediatemarks"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/button"
@@ -80,6 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="2dp"
+        android:onClick="Calculate"
         android:text="Calculate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
